@@ -38,6 +38,46 @@ section {
 	padding: 0px;
 }
 
+.navi
+{
+	color: #999999;
+	float:left;
+    margin-top: 20px;
+    padding-left:25px ;
+    position: absolute;
+    -webkit-transition-property:color, text;
+    -webkit-transition-duration: .05s, 0.5s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property:color, text, background-color;
+    -moz-transition-duration:0.5s;
+    -moz-transition-timing-function: ease;
+    -o-transition-property:color, text;
+    -o-transition-duration:0.5s;
+    -o-transition-timing-function: ease;
+
+
+
+}
+.navi:hover{
+	color:#cc9933;
+
+}
+
+#imagenLogo 
+{
+	margin-top: 5px;
+	margin-left: 92px;
+	max-width: 35px;
+	position: relative;
+	
+}
+
+
+
+
+
+
+
 /**************************
         BODY
 **************************/
@@ -149,6 +189,7 @@ img {
 		font-size: 30px;
 	}
 }
+
 
 
 
