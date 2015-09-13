@@ -35,7 +35,7 @@ header nav ul li a:hover{
 	background: transparent;
 }
 section {
-	padding: 20px;
+	padding: 0px;
 }
 
 /**************************
@@ -65,8 +65,9 @@ body{
 	position: absolute;
 	width: 100%;
 	min-height: 100%;
+	margin-top: -20px;
 	z-index: 1000;
-	background-color: rgba(0,0,0,0.3);
+	background-color: rgba(0,0,0,0.2);
 }
 .content h1{
 	text-align: center;
@@ -83,7 +84,24 @@ body{
 	letter-spacing: 3px;
 	color: #aaa;
 }
-
+/**************************
+        IMAGENES
+**************************/
+section{
+	margin-top:630px;
+	position: absolute;
+	min-width: 100%;
+	min-height: 100%;
+}
+section ul{
+	list-style: none;
+}
+section ul li img{
+	display: block;
+	min-width: 50%;
+	min-height: 50%;
+	float: left;
+}
 /**************************
         JQUERYS
 **************************/
@@ -92,7 +110,7 @@ body{
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		left:0%;
+		left:-100%;
 		margin: 0;
 		position: fixed;
 		background: #C5A24B;
