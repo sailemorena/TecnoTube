@@ -62,11 +62,12 @@ body{
 	min-width: 100%;
 }
 .content{
-	position: absolute;
+	
 	width: 100%;
 	min-height: 100%;
 	margin-top: -20px;
 	z-index: 1000;
+	padding-bottom: 400px;
 	background-color: rgba(0,0,0,0.2);
 }
 .content h1{
@@ -88,7 +89,7 @@ body{
         IMAGENES
 **************************/
 section{
-	margin-top:630px;
+	
 	position: absolute;
 	min-width: 100%;
 	min-height: 100%;
@@ -104,8 +105,7 @@ img {
 #gallery li {
   float: left;
   width: 100%;
-  margin: 0%;
-  background-color: #f5f5f5;
+  margin: 0;
   color: #bdc3c7;
 }
 /**************************
